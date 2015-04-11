@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="www.negocioentuzona.com:ejb exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/www_negocioentuzona_com_ejb_exploded</output-path>
+    <root id="root">
+      <element id="module-output" name="www.negocioentuzona.com" />
+    </root>
+  </artifact>
+</component>

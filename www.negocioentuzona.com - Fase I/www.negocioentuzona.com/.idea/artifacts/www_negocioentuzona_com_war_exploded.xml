@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="www.negocioentuzona.com:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/www_negocioentuzona_com_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="www.negocioentuzona.com" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Mojarra-2.2.1" />
+          <element id="library" level="project" name="Primefaces" />
+        </element>
+        <element id="javaee-facet-resources" facet="www.negocioentuzona.com/web/Web" />
+      </element>
+    </root>
+  </artifact>
+</component>
