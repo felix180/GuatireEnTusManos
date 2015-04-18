@@ -1,12 +1,14 @@
 package dto;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * Created by caraque on 17/04/2015.
  */
-public class Negocio {
+public class Negocio implements Serializable{
 
+    private static final long serialVersionUID = 1L;
     private String nombreNegocio;
     private String rif;
     private Direccion direccion;

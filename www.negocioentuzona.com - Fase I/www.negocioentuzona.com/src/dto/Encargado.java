@@ -1,12 +1,14 @@
 package dto;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
  * Created by Christian on 18-04-2015.
  */
-public class Encargado {
+public class Encargado implements Serializable {
 
+    private static final long serialVersionUID = 1L;
     private String nombre;
     private int cedula;
     private Direccion direccion;

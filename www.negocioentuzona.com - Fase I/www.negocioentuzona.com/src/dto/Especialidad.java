@@ -1,10 +1,13 @@
 package dto;
 
+import java.io.Serializable;
+
 /**
  * Created by Christian on 18-04-2015.
  */
-public class Especialidad {
+public class Especialidad implements Serializable {
 
+    private static final long serialVersionUID = 1L;
     private String codigoEspecialidad;
     private String especialidad;
 

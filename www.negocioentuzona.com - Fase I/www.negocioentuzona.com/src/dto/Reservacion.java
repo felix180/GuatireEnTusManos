@@ -1,12 +1,14 @@
 package dto;
 
+import java.io.Serializable;
 import java.util.Calendar;
 
 /**
  * Created by Christian on 18-04-2015.
  */
-public class Reservacion {
+public class Reservacion implements Serializable {
 
+    private static final long serialVersionUID = 1L;
     private Cliente cliente;
     private Especialidad especialidad;
     private Calendar fechaAsistencia;
