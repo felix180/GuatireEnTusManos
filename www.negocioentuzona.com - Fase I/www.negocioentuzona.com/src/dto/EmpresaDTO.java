@@ -6,12 +6,12 @@ import java.util.Date;
 /**
  * Created by caraque on 17/04/2015.
  */
-public class Negocio implements Serializable{
+public class EmpresaDTO implements Serializable{
 
     private static final long serialVersionUID = 1L;
     private String nombreNegocio;
     private String rif;
-    private Direccion direccion;
+    private DireccionDTO direccionDTO;
     private Date horarioAtencion;
     private String descripcion;
     private String email;
@@ -33,12 +33,12 @@ public class Negocio implements Serializable{
         this.rif = rif;
     }
 
-    public Direccion getDireccion() {
-        return direccion;
+    public DireccionDTO getDireccionDTO() {
+        return direccionDTO;
     }
 
-    public void setDireccion(Direccion direccion) {
-        this.direccion = direccion;
+    public void setDireccionDTO(DireccionDTO direccionDTO) {
+        this.direccionDTO = direccionDTO;
     }
 
     public Date getHorarioAtencion() {
@@ -78,7 +78,7 @@ public class Negocio implements Serializable{
         return "Negocio{" +
                 "nombreNegocio='" + nombreNegocio + '\'' +
                 ", rif='" + rif + '\'' +
-                ", direccion=" + direccion +
+                ", direccion=" + direccionDTO +
                 ", horarioAtencion=" + horarioAtencion +
                 ", descripcion='" + descripcion + '\'' +
                 ", email='" + email + '\'' +

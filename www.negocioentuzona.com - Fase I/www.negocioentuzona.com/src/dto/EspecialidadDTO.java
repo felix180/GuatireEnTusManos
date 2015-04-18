@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * Created by Christian on 18-04-2015.
  */
-public class Especialidad implements Serializable {
+public class EspecialidadDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;
     private String codigoEspecialidad;

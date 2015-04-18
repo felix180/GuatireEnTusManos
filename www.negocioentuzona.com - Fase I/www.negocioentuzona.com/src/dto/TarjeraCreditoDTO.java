@@ -6,7 +6,7 @@ import java.util.Date;
 /**
  * Created by caraque on 17/04/2015.
  */
-public class TarjeraCredito implements Serializable{
+public class TarjeraCreditoDTO implements Serializable{
 
     private static final long serialVersionUID = 1L;
     private double numeroTarjetaCredito;

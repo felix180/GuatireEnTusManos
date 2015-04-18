@@ -6,7 +6,7 @@ import java.util.Calendar;
 /**
  * Created by Christian on 18-04-2015.
  */
-public class Cliente implements Serializable{
+public class ClienteDTO implements Serializable{
 
     private static final long serialVersionUID = 1L;
     private String usuario;
@@ -15,7 +15,7 @@ public class Cliente implements Serializable{
     private int cedula;
     private Calendar fechaNacimiento;
     private String correoElectronico;
-    private Direccion direccion;
+    private DireccionDTO direccionDTO;
 
     public String getUsuario() {
         return usuario;
@@ -65,12 +65,12 @@ public class Cliente implements Serializable{
         this.correoElectronico = correoElectronico;
     }
 
-    public Direccion getDireccion() {
-        return direccion;
+    public DireccionDTO getDireccionDTO() {
+        return direccionDTO;
     }
 
-    public void setDireccion(Direccion direccion) {
-        this.direccion = direccion;
+    public void setDireccionDTO(DireccionDTO direccionDTO) {
+        this.direccionDTO = direccionDTO;
     }
 
     @Override
@@ -82,7 +82,7 @@ public class Cliente implements Serializable{
                 ", cedula=" + cedula +
                 ", fechaNaciemiento=" + fechaNacimiento +
                 ", correoElectronico='" + correoElectronico + '\'' +
-                ", direccion=" + direccion +
+                ", direccion=" + direccionDTO +
                 '}';
     }
 }

@@ -6,14 +6,14 @@ import java.util.ArrayList;
 /**
  * Created by Christian on 18-04-2015.
  */
-public class Encargado implements Serializable {
+public class DueñoEmpresaDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;
     private String nombre;
     private int cedula;
-    private Direccion direccion;
+    private DireccionDTO direccionDTO;
     private String correo;
-    private ArrayList<TarjeraCredito> tarjetaCredito;
+    private ArrayList<TarjeraCreditoDTO> tarjetaCredito;
     private String numeroTelefonico;
 
     public String getNombre() {
@@ -32,12 +32,12 @@ public class Encargado implements Serializable {
         this.cedula = cedula;
     }
 
-    public Direccion getDireccion() {
-        return direccion;
+    public DireccionDTO getDireccionDTO() {
+        return direccionDTO;
     }
 
-    public void setDireccion(Direccion direccion) {
-        this.direccion = direccion;
+    public void setDireccionDTO(DireccionDTO direccionDTO) {
+        this.direccionDTO = direccionDTO;
     }
 
     public String getCorreo() {
@@ -48,11 +48,11 @@ public class Encargado implements Serializable {
         this.correo = correo;
     }
 
-    public ArrayList<TarjeraCredito> getTarjetaCredito() {
+    public ArrayList<TarjeraCreditoDTO> getTarjetaCredito() {
         return tarjetaCredito;
     }
 
-    public void setTarjetaCredito(ArrayList<TarjeraCredito> tarjetaCredito) {
+    public void setTarjetaCredito(ArrayList<TarjeraCreditoDTO> tarjetaCredito) {
         this.tarjetaCredito = tarjetaCredito;
     }
 
@@ -69,7 +69,7 @@ public class Encargado implements Serializable {
         return "EncargadoNegocio{" +
                 "nombre='" + nombre + '\'' +
                 ", cedula=" + cedula +
-                ", direccion=" + direccion +
+                ", direccion=" + direccionDTO +
                 ", correo='" + correo + '\'' +
                 ", tarjetaCredito=" + tarjetaCredito +
                 ", numeroTelefonico='" + numeroTelefonico + '\'' +

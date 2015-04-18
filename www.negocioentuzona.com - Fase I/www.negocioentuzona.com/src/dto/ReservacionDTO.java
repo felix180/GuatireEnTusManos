@@ -6,27 +6,27 @@ import java.util.Calendar;
 /**
  * Created by Christian on 18-04-2015.
  */
-public class Reservacion implements Serializable {
+public class ReservacionDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;
-    private Cliente cliente;
-    private Especialidad especialidad;
+    private ClienteDTO clienteDTO;
+    private EspecialidadDTO especialidadDTO;
     private Calendar fechaAsistencia;
 
-    public Cliente getCliente() {
-        return cliente;
+    public ClienteDTO getClienteDTO() {
+        return clienteDTO;
     }
 
-    public void setCliente(Cliente cliente) {
-        this.cliente = cliente;
+    public void setClienteDTO(ClienteDTO clienteDTO) {
+        this.clienteDTO = clienteDTO;
     }
 
-    public Especialidad getEspecialidad() {
-        return especialidad;
+    public EspecialidadDTO getEspecialidadDTO() {
+        return especialidadDTO;
     }
 
-    public void setEspecialidad(Especialidad especialidad) {
-        this.especialidad = especialidad;
+    public void setEspecialidadDTO(EspecialidadDTO especialidadDTO) {
+        this.especialidadDTO = especialidadDTO;
     }
 
     public Calendar getFechaAsistencia() {
@@ -40,8 +40,8 @@ public class Reservacion implements Serializable {
     @Override
     public String toString() {
         return "Reservacion{" +
-                "cliente=" + cliente +
-                ", especialidad=" + especialidad +
+                "cliente=" + clienteDTO +
+                ", especialidad=" + especialidadDTO +
                 ", fechaAsistencia=" + fechaAsistencia +
                 '}';
     }

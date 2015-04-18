@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * Created by caraque on 17/04/2015.
  */
-public class Direccion implements Serializable{
+public class DireccionDTO implements Serializable{
 
     private static final long serialVersionUID = 1L;
     private String pais;

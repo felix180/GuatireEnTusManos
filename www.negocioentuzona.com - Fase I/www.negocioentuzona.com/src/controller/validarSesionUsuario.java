@@ -5,10 +5,5 @@ package controller;
  */
 public class validarSesionUsuario {
 
-    public void iniciarSesion() {
-
-
-
-    }
 
 }
