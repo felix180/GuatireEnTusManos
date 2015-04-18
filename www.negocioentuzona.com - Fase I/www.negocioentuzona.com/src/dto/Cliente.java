@@ -11,7 +11,7 @@ public class Cliente {
     private String contraseña;
     private String nombre;
     private int cedula;
-    private Calendar fechaNaciemiento;
+    private Calendar fechaNacimiento;
     private String correoElectronico;
     private Direccion direccion;
 
@@ -47,12 +47,12 @@ public class Cliente {
         this.cedula = cedula;
     }
 
-    public Calendar getFechaNaciemiento() {
-        return fechaNaciemiento;
+    public Calendar getFechaNacimiento() {
+        return fechaNacimiento;
     }
 
-    public void setFechaNaciemiento(Calendar fechaNaciemiento) {
-        this.fechaNaciemiento = fechaNaciemiento;
+    public void setFechaNacimiento(Calendar fechaNaciemiento) {
+        this.fechaNacimiento = fechaNaciemiento;
     }
 
     public String getCorreoElectronico() {
@@ -78,7 +78,7 @@ public class Cliente {
                 ", contraseña='" + contraseña + '\'' +
                 ", nombre='" + nombre + '\'' +
                 ", cedula=" + cedula +
-                ", fechaNaciemiento=" + fechaNaciemiento +
+                ", fechaNaciemiento=" + fechaNacimiento +
                 ", correoElectronico='" + correoElectronico + '\'' +
                 ", direccion=" + direccion +
                 '}';
