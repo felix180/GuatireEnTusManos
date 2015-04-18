@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by Christian on 18-04-2015.
  */
-public class EncargadoNegocio {
+public class Encargado {
 
     private String nombre;
     private int cedula;
